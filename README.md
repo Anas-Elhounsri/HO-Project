@@ -17,7 +17,7 @@ Mutation is then applied to introduce diversity in the population. Randomly sele
 Finally the Survivor stage determines which individuals will be carried over to the next generation, we pass only the best solutions to the next generation.
 
 ## Final Loop:
-All the phases run in a loop defined in the function `run_bga()`, It will run depending on the number of generations (Currently 200), while showing the best solution at each generation..
+All the phases run in a loop defined in the function `run_bga()`, It will run depending on the number of generations (Currently 200), while showing the best solution at each generation.
 
 ## Some Final Notes:
 In the code I used different types of Selection, Crossover, Mutation and Survivor, whenever you want to test different methods, you can just uncomment one at a time the function you wish to use to compare the results and see which solution fits the best. 
