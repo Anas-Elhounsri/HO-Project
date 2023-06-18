@@ -139,6 +139,7 @@ def crossover(population): # This function used single point crossover to return
     return new_cpop
 
 ##################### Mutation Phase #####################
+# In here there are two Mutation types (Local Mutation and Global Mutation), you should only use one at a time
 
 def local_mutation(population): # This function runs a mutation type named Local mutation
 
@@ -169,6 +170,7 @@ def global_mutation(population): # This function runs a mutation type named glob
     return population 
  
 ##################### Survivor Phase #####################
+# In here there are two Survivor types (Elitism and Non Elitism), you should only use one at a time
 
 def elitist(old_pop, off_pop): # This function runs a survivor type named Elitism (Takes the best solutions from both original population and offsprings)
 
